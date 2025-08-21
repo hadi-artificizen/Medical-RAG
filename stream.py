@@ -11,7 +11,7 @@ st.set_page_config(page_title="Medical RAG Chatbot", layout="wide")
 if "user_email" not in st.session_state:
     st.session_state.user_email = None
 if "chatroom_id" not in st.session_state:
-    st.session_state.chatroom_id = Non
+    st.session_state.chatroom_id = None
 # CHANGED: Added JWT token to session state for authentication
 if "access_token" not in st.session_state:
     st.session_state.access_token = None
